@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 19 17:47:18 GST 2022</td>
+<td>Started on:</td><td>Mon Sep 19 21:04:37 GST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6443 ms)</td>
+<tr><td>Total time:</td><td>38 seconds (38140 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,63 +76,43 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user landed on Sctv page", "Optional[Verify STCTV Subscription functionality]"</td>
-<td><div><pre>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:591)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
-	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
-	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
-</pre></div><a href='#' onClick='toggleBox("stack-trace15024899", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace15024899'><pre>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:591)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
-	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
-	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
+<td><div><pre>java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
+	at pages.HomePage.verifyUrl(HomePage.java:48)
+	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
+	at ?.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:7)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace44278425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace44278425'><pre>java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at pages.HomePage.verifyUrl(HomePage.java:48)
+	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
+	at ?.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:7)
 </pre></div></td>
-<td>1</td>
+<td>20</td>
 <td>runner.TestRunner@72d818d1</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the subscription packages for stctv", "Optional[Verify STCTV Subscription functionality]"</td>
-<td><div><pre>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:591)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
-	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
-	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
-</pre></div><a href='#' onClick='toggleBox("stack-trace342198178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace342198178'><pre>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:591)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
-	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
-	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
+<td><div><pre>java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
+	at pages.HomePage.verifyUrl(HomePage.java:48)
+	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
+	at ?.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:14)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1466413743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1466413743'><pre>java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at pages.HomePage.verifyUrl(HomePage.java:48)
+	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
+	at ?.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:14)
 </pre></div></td>
-<td>0</td>
+<td>14</td>
 <td>runner.TestRunner@72d818d1</td></tr>
 </table><p>
 </body>

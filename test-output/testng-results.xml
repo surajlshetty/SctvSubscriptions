@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="47654" started-at="2022-09-19T13:19:41Z" finished-at="2022-09-19T13:20:29Z">
+  <suite name="Suite" duration-ms="47495" started-at="2022-09-19T16:31:59Z" finished-at="2022-09-19T16:32:47Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72057ecf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="47654" started-at="2022-09-19T13:19:41Z" finished-at="2022-09-19T13:20:29Z">
+    <test name="Test" duration-ms="47495" started-at="2022-09-19T16:31:59Z" finished-at="2022-09-19T16:32:47Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@72057ecf]" name="setUpClass" is-config="true" duration-ms="3092" started-at="2022-09-19T17:19:41Z" finished-at="2022-09-19T17:19:44Z">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@72057ecf]" name="setUpClass" is-config="true" duration-ms="4018" started-at="2022-09-19T20:31:59Z" finished-at="2022-09-19T20:32:03Z">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72057ecf]" name="runScenario" duration-ms="22402" started-at="2022-09-19T17:19:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T17:20:07Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72057ecf]" name="runScenario" duration-ms="22219" started-at="2022-09-19T20:32:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T20:32:25Z">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@ Driver info: driver.version: ChromeDriver
 	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
 	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
 	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:36465/status] to be available after 20021 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:8989/status] to be available after 20047 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
 	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
@@ -129,7 +129,7 @@ Caused by: java.util.concurrent.TimeoutException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72057ecf]" name="runScenario" duration-ms="20271" started-at="2022-09-19T17:20:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T17:20:27Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72057ecf]" name="runScenario" duration-ms="20115" started-at="2022-09-19T20:32:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T20:32:46Z">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@ Driver info: driver.version: ChromeDriver
 	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
 	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
 	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:35299/status] to be available after 20003 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:15375/status] to be available after 20012 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
 	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
@@ -237,7 +237,7 @@ Caused by: java.util.concurrent.TimeoutException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@72057ecf]" name="tearDownClass" is-config="true" duration-ms="1763" started-at="2022-09-19T17:20:27Z" finished-at="2022-09-19T17:20:29Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@72057ecf]" name="tearDownClass" is-config="true" duration-ms="1064" started-at="2022-09-19T20:32:46Z" finished-at="2022-09-19T20:32:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

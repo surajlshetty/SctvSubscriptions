@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="6443" started-at="2022-09-19T13:47:18Z" finished-at="2022-09-19T13:47:25Z">
+  <suite name="Surefire suite" duration-ms="38140" started-at="2022-09-19T17:04:37Z" finished-at="2022-09-19T17:05:15Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72d818d1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="6443" started-at="2022-09-19T13:47:18Z" finished-at="2022-09-19T13:47:25Z">
+    <test name="Surefire test" duration-ms="38140" started-at="2022-09-19T17:04:37Z" finished-at="2022-09-19T17:05:15Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@72d818d1]" name="setUpClass" is-config="true" duration-ms="2974" started-at="2022-09-19T17:47:18Z" finished-at="2022-09-19T17:47:21Z">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@72d818d1]" name="setUpClass" is-config="true" duration-ms="1446" started-at="2022-09-19T21:04:37Z" finished-at="2022-09-19T21:04:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@b40bb6e]]>
+                <![CDATA[org.testng.TestRunner@1436a7ab]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72d818d1]" name="runScenario" duration-ms="1378" started-at="2022-09-19T17:47:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T17:47:23Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72d818d1]" name="runScenario" duration-ms="20291" started-at="2022-09-19T21:04:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T21:04:59Z">
           <params>
             <param index="0">
               <value>
@@ -34,30 +34,28 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver]]>
+              <![CDATA[expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:591)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
-	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
-	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
+              <![CDATA[java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at pages.HomePage.verifyUrl(HomePage.java:48)
+	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
+	at ✽.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:7)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72d818d1]" name="runScenario" duration-ms="144" started-at="2022-09-19T17:47:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T17:47:23Z">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72d818d1]" name="runScenario" duration-ms="14233" started-at="2022-09-19T21:04:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T21:05:13Z">
           <params>
             <param index="0">
               <value>
@@ -70,30 +68,28 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver]]>
+              <![CDATA[expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:591)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
-	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
-	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
+              <![CDATA[java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at pages.HomePage.verifyUrl(HomePage.java:48)
+	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
+	at ✽.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:14)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@72d818d1]" name="tearDownClass" is-config="true" duration-ms="1848" started-at="2022-09-19T17:47:23Z" finished-at="2022-09-19T17:47:25Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@72d818d1]" name="tearDownClass" is-config="true" duration-ms="2100" started-at="2022-09-19T21:05:13Z" finished-at="2022-09-19T21:05:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

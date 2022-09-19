@@ -45,7 +45,7 @@ public class HomePage extends Baseclass {
 
      public void verifyUrl(){
 
-         Assert.assertEquals(driver.getCurrentUrl(),"https://subscribe.jawwy.tv/ae-en");
+         Assert.assertEquals(driver.getCurrentUrl(),"https://subscribe.jawwy.tv/sa-en");
      }
 
     public void verifyPlanHeading() throws Throwable {

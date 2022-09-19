@@ -29,7 +29,7 @@ public class Baseclass {
                 driver = new FirefoxDriver();
                 break;
             case "chrome":
-                System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/resources/lib/chromedriver");
+                System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/resources/lib/chromedriver.exe");
                 driver = new ChromeDriver();break;
 
         }

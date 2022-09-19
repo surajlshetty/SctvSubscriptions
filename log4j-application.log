@@ -1,9 +1,12 @@
-2022-09-19 21:15:09,174  INFO [main] HomepageSteps:19 - Redirection done
- 2022-09-19 21:15:09,194  INFO [main] HomepageSteps:25 - Redirection was successful
- 2022-09-19 21:15:09,220  INFO [main] HomepageSteps:31 - Url is verified
- 2022-09-19 21:15:20,030  INFO [main] HomepageSteps:19 - Redirection done
- 2022-09-19 21:15:20,037  INFO [main] HomepageSteps:25 - Redirection was successful
- 2022-09-19 21:15:20,090  INFO [main] HomepageSteps:31 - Url is verified
- 2022-09-19 21:15:20,327  INFO [main] HomepageSteps:37 - Plan Heading is verified
- 2022-09-19 21:15:20,580  INFO [main] HomepageSteps:43 - All  the Subscription packages is getting displayed on the page
+2022-09-19 23:44:01,617  INFO [main] HomepageSteps:19 - Redirection done
+ 2022-09-19 23:44:01,641  INFO [main] HomepageSteps:25 - Redirection was successful
+ 2022-09-19 23:44:01,666  INFO [main] HomepageSteps:31 - Url is verified
+ 2022-09-19 23:44:12,526  INFO [main] HomepageSteps:19 - Redirection done
+ 2022-09-19 23:44:12,528  INFO [main] HomepageSteps:25 - Redirection was successful
+ 2022-09-19 23:44:12,566  INFO [main] HomepageSteps:31 - Url is verified
+ 2022-09-19 23:44:12,743  INFO [main] HomepageSteps:37 - Plan Heading is verified
+ 2022-09-19 23:44:13,033  INFO [main] HomepageSteps:84 - 1st Package is LITE with amount 15 and currency is SAR.
+ 2022-09-19 23:44:13,334  INFO [main] HomepageSteps:94 - 2nd Package is CLASSIC with amount 25 and currency is SAR.
+ 2022-09-19 23:44:13,617  INFO [main] HomepageSteps:104 - 3rd Package is PREMIUM with amount 60 and currency is SAR.
+ 2022-09-19 23:44:13,618  INFO [main] HomepageSteps:43 - All  the Subscription packages is getting displayed on the page
  

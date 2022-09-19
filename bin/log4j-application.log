@@ -1,0 +1,6 @@
+2022-09-19 14:51:45,540  INFO [main] HomepageSteps:19 - Redirection done
+ 2022-09-19 14:51:45,548  INFO [main] HomepageSteps:25 - Redirection was successful
+ 2022-09-19 14:51:45,571  INFO [main] HomepageSteps:31 - Url is verified
+ 2022-09-19 14:51:45,667  INFO [main] HomepageSteps:37 - Plan Heading is verified
+ 2022-09-19 14:51:45,880  INFO [main] HomepageSteps:43 - All  the Subscription packages is getting displayed on the page
+ 

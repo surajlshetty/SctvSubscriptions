@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.793 s <<< FAILURE! - in TestSuite
+runner.TestRunner.runScenario["Verify user landed on Sctv page", "Optional[Verify STCTV Subscription functionality]"](1)  Time elapsed: 1.405 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
+
+runner.TestRunner.runScenario["Validate the subscription packages for stctv", "Optional[Verify STCTV Subscription functionality]"](2)  Time elapsed: 0.136 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
+

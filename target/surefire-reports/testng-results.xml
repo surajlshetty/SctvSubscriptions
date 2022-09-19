@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="6443" started-at="2022-09-19T13:47:18Z" finished-at="2022-09-19T13:47:25Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72d818d1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="6443" started-at="2022-09-19T13:47:18Z" finished-at="2022-09-19T13:47:25Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@72d818d1]" name="setUpClass" is-config="true" duration-ms="2974" started-at="2022-09-19T17:47:18Z" finished-at="2022-09-19T17:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b40bb6e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72d818d1]" name="runScenario" duration-ms="1378" started-at="2022-09-19T17:47:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T17:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user landed on Sctv page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify STCTV Subscription functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:591)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
+	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
+	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@72d818d1]" name="runScenario" duration-ms="144" started-at="2022-09-19T17:47:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T17:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the subscription packages for stctv"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify STCTV Subscription functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\HP\Documents\GitHub\SctvSubscriptions\src\main\resources\lib\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:591)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.learning.base.Baseclass.createWebDriver(Baseclass.java:33)
+	at com.learning.base.Baseclass.launchbrowser(Baseclass.java:41)
+	at stepDefinitions.Hooks.initializeTest(Hooks.java:28)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@72d818d1]" name="tearDownClass" is-config="true" duration-ms="1848" started-at="2022-09-19T17:47:23Z" finished-at="2022-09-19T17:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

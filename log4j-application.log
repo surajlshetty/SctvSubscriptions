@@ -1,5 +1,9 @@
-2022-09-19 21:04:59,406  INFO [main] HomepageSteps:19 - Redirection done
- 2022-09-19 21:04:59,424  INFO [main] HomepageSteps:25 - Redirection was successful
- 2022-09-19 21:05:13,654  INFO [main] HomepageSteps:19 - Redirection done
- 2022-09-19 21:05:13,660  INFO [main] HomepageSteps:25 - Redirection was successful
+2022-09-19 21:15:09,174  INFO [main] HomepageSteps:19 - Redirection done
+ 2022-09-19 21:15:09,194  INFO [main] HomepageSteps:25 - Redirection was successful
+ 2022-09-19 21:15:09,220  INFO [main] HomepageSteps:31 - Url is verified
+ 2022-09-19 21:15:20,030  INFO [main] HomepageSteps:19 - Redirection done
+ 2022-09-19 21:15:20,037  INFO [main] HomepageSteps:25 - Redirection was successful
+ 2022-09-19 21:15:20,090  INFO [main] HomepageSteps:31 - Url is verified
+ 2022-09-19 21:15:20,327  INFO [main] HomepageSteps:37 - Plan Heading is verified
+ 2022-09-19 21:15:20,580  INFO [main] HomepageSteps:43 - All  the Subscription packages is getting displayed on the page
  

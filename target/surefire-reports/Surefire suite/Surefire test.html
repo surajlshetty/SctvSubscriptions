@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 19 21:04:37 GST 2022</td>
+<td>Started on:</td><td>Mon Sep 19 21:14:54 GST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>38 seconds (38140 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28394 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,43 +76,13 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user landed on Sctv page", "Optional[Verify STCTV Subscription functionality]"</td>
-<td><div><pre>java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
-	at pages.HomePage.verifyUrl(HomePage.java:48)
-	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
-	at ?.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:7)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace44278425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace44278425'><pre>java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at pages.HomePage.verifyUrl(HomePage.java:48)
-	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
-	at ?.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:7)
-</pre></div></td>
-<td>20</td>
+<td></td>
+<td>14</td>
 <td>runner.TestRunner@72d818d1</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the subscription packages for stctv", "Optional[Verify STCTV Subscription functionality]"</td>
-<td><div><pre>java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
-	at pages.HomePage.verifyUrl(HomePage.java:48)
-	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
-	at ?.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:14)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1466413743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1466413743'><pre>java.lang.AssertionError: expected [https://subscribe.jawwy.tv/ae-en] but found [https://subscribe.stctv.com/sa-en]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at pages.HomePage.verifyUrl(HomePage.java:48)
-	at stepDefinitions.HomepageSteps.verify_website_current_url(HomepageSteps.java:30)
-	at ?.Verify URL of sctv Website(file:///C:/Users/HP/Documents/GitHub/SctvSubscriptions/src/test/java/features/Homepage.feature:14)
-</pre></div></td>
-<td>14</td>
+<td></td>
+<td>11</td>
 <td>runner.TestRunner@72d818d1</td></tr>
 </table><p>
 </body>

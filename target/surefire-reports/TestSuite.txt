@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.522 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 84.38 s <<< FAILURE! - in TestSuite
+runner.TestRunner.runScenario["Validate the subscription packages for stctv", "Optional[Verify STCTV Subscription functionality]"](2)  Time elapsed: 35.453 s  <<< FAILURE!
+java.lang.AssertionError: Choose Your Plan Heading is not present expected [true] but found [false]
+
